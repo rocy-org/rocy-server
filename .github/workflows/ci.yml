@@ -13,8 +13,6 @@ env:
   CI_FLUTTER_VERSION: '3.19.x'
 
 jobs:
-
-jobs:
   CI:
     runs-on: ubuntu-latest
     steps:
