@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/rocy-org/rocy-server/database/conn"
+	_ "github.com/rocy-org/rocy-server/utils/db"
+	_ "github.com/rocy-org/rocy-server/utils/init"
 )
 
 func main() {
-	conn.ConnInit()
 }
