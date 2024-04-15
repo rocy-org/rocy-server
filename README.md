@@ -19,5 +19,7 @@ This repo contains the source code of backend management server that provides:
 go install github.com/swaggo/swag/cmd/swag@latest
 
 # Generate doc.
-swag init -g server/api/api.go -o docs/swagger/
+swag init -g server/api/api.go -o docs/swagger/ --parseDependency
+
+# Visit ${URL}/swagger/index.html in browser
 ```
